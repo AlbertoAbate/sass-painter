@@ -1,6 +1,4 @@
 main {
-    display: flex;
-    flex-grow: 1;
     
     .first-section {
         width: 100%;
@@ -51,6 +49,22 @@ main {
             }
             .limited {
                 font-size: 16px;
+            }
+        }
+    }// end first section
+    .second-section {
+        background-color: #e6e6e6;
+
+        & li {
+            padding: 15px 30px;
+        }
+        & a {
+            color: $tertiary-col;
+            &:hover {
+              background-color: #fff;
+              opacity: 0.6;
+              color: $black;
+              padding: 15px 30px;  
             }
         }
     }
