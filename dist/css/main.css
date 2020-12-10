@@ -9,10 +9,12 @@ body {
   flex-direction: column;
   min-height: 100vh;
   font-size: 14px;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 .container-small {
   width: 1170px;
+  margin: 0 auto;
 }
 
 ul {
@@ -21,7 +23,14 @@ ul {
 
 li {
   list-style: none;
-  margin-right: 15px;
+}
+
+.flex {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
@@ -29,8 +38,11 @@ header {
   padding: 20px 0;
 }
 header .header-top {
-  display: flex;
   justify-content: right;
+  margin-bottom: 20px;
+}
+header .header-top li {
+  margin-right: 15px;
 }
 header .header-top i {
   color: #009cff;
@@ -40,4 +52,20 @@ header .header-top span {
 }
 header .header-top option {
   color: #7a8888;
+}
+header .header-bottom img {
+  flex-basis: 10%;
+}
+header .header-bottom ul {
+  flex-basis: 80%;
+  justify-content: space-around;
+  padding-top: 13px;
+}
+header .header-bottom a {
+  color: #fff;
+}
+header .header-bottom i {
+  color: #7a8888;
+  position: relative;
+  top: 1px;
 }

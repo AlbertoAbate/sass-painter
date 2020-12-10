@@ -1,10 +1,16 @@
 .container-small {
     width: 1170px;
+    margin: 0 auto;
 }
 ul {
     display: flex;
 }
 li {
-    list-style: none;
-    margin-right: 15px;  
+    list-style: none;  
+}
+.flex {
+    display: flex;
+}
+a {
+    text-decoration: none;
 }

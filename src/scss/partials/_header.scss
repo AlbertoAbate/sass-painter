@@ -3,9 +3,13 @@ header {
     padding: 20px 0;
 
     .header-top {
-        display: flex;
+        
         justify-content: right;
+        margin-bottom: 20px;
 
+        & li {
+            margin-right: 15px;
+        }
         & i {
             color: $primary-col;
         }
@@ -16,6 +20,26 @@ header {
 
         & option {
             color: $tertiary-col;
+        }    
+    }
+
+    .header-bottom {
+        img {
+            flex-basis: 10%;
         }
+        ul {
+            flex-basis: 80%;
+            justify-content: space-around;
+            padding-top: 13px;
+        }
+        & a {
+            color: $white;
+        }
+        & i {
+            color: $tertiary-col;
+            position: relative;
+            top: 1px;
+        }
+
     }
 }
