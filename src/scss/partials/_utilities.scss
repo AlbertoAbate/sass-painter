@@ -14,3 +14,22 @@ li {
 a {
     text-decoration: none;
 }
+.mb {
+    margin-bottom: 10px;
+}
+.mr {
+    margin-right: 10px;
+}
+.mt {
+    margin-top: 20px;
+}
+.tu {
+    text-transform: uppercase;
+}
+.btn-first-section {
+    padding: 10px 20px;
+    background-color: #666;
+    border-color: #666;
+    color: $white;
+    cursor: pointer;
+}

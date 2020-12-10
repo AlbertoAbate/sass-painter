@@ -33,6 +33,30 @@ a {
   text-decoration: none;
 }
 
+.mb {
+  margin-bottom: 10px;
+}
+
+.mr {
+  margin-right: 10px;
+}
+
+.mt {
+  margin-top: 20px;
+}
+
+.tu {
+  text-transform: uppercase;
+}
+
+.btn-first-section {
+  padding: 10px 20px;
+  background-color: #666;
+  border-color: #666;
+  color: #fff;
+  cursor: pointer;
+}
+
 header {
   background-color: #000;
   padding: 20px 0;
@@ -68,4 +92,52 @@ header .header-bottom i {
   color: #7a8888;
   position: relative;
   top: 1px;
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+}
+main .first-section {
+  width: 100%;
+  background-image: url("../../img/hero-painteressentials-7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: -403px;
+}
+main .first-section .box-left {
+  flex-basis: 25%;
+}
+main .first-section .box-center {
+  flex-basis: 40%;
+  padding: 40px 0;
+  color: #fff;
+  line-height: 40px;
+}
+main .first-section .box-center ul {
+  display: block;
+  margin-bottom: 30px;
+}
+main .first-section .box-center ul i {
+  color: #7a8888;
+  margin-right: 8px;
+}
+main .first-section .box-center button i {
+  font-size: 30px;
+}
+main .first-section .box-right {
+  flex-basis: 35%;
+  background-color: #000;
+  padding: 20px 10px 40px 10px;
+}
+main .first-section .box-right .download {
+  justify-content: space-between;
+  align-items: center;
+}
+main .first-section .box-right .download .price {
+  color: #fff;
+  font-size: 30px;
+}
+main .first-section .box-right .download .scarica {
+  color: #666;
 }

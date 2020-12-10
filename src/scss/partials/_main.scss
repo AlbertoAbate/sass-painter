@@ -1,0 +1,53 @@
+main {
+    display: flex;
+    flex-grow: 1;
+    
+    .first-section {
+        width: 100%;
+        background-image: url('../../img/hero-painteressentials-7.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: -403px;
+
+        .box-left {
+            flex-basis: 25%;
+        }
+        .box-center {
+            flex-basis: 40%;
+            padding: 40px 0;
+            color: $white;
+            line-height: 40px;
+
+            ul {
+                display: block;
+                margin-bottom: 30px;
+
+                & i {
+                    color: $tertiary-col;
+                    margin-right: 8px;
+                }
+            }
+            button i {
+                font-size: 30px;
+            }
+        }
+        .box-right {
+            flex-basis: 35%;
+            background-color: $black;
+            padding: 20px 10px 40px 10px;
+
+            .download{
+                justify-content: space-between;
+                align-items: center;
+
+                .price {
+                    color: $white;
+                    font-size: 30px;
+                }
+                .scarica {
+                    color: #666;
+                }
+            }
+        }
+    }
+} // end main
