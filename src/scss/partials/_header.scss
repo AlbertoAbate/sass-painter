@@ -1,0 +1,21 @@
+header {
+    background-color: $black;
+    padding: 20px 0;
+
+    .header-top {
+        display: flex;
+        justify-content: right;
+
+        & i {
+            color: $primary-col;
+        }
+
+        & span {
+            color: $tertiary-col;
+        }
+
+        & option {
+            color: $tertiary-col;
+        }
+    }
+}
