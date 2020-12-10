@@ -57,6 +57,24 @@ a {
   cursor: pointer;
 }
 
+.btn-box-right {
+  padding: 10px 40px;
+  background-color: #009cff;
+  border-color: #009cff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-box-big {
+  padding: 5px 70px 10px 5px;
+  background-color: #fff;
+  border-color: #fff;
+  color: #000;
+  cursor: pointer;
+  text-align: left;
+  line-height: 18px;
+}
+
 header {
   background-color: #000;
   padding: 20px 0;
@@ -100,10 +118,11 @@ main {
 }
 main .first-section {
   width: 100%;
+  height: 500px;
   background-image: url("../../img/hero-painteressentials-7.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-x: -403px;
+  background-position-x: -388px;
 }
 main .first-section .box-left {
   flex-basis: 25%;
@@ -140,4 +159,7 @@ main .first-section .box-right .download .price {
 }
 main .first-section .box-right .download .scarica {
   color: #666;
+}
+main .first-section .box-right .limited {
+  font-size: 16px;
 }

@@ -33,3 +33,19 @@ a {
     color: $white;
     cursor: pointer;
 }
+.btn-box-right {
+    padding: 10px 40px;
+    background-color: $primary-col;
+    border-color: $primary-col;
+    color: $white;
+    cursor: pointer;
+}
+.btn-box-big {
+    padding: 5px 70px 10px 5px;
+    background-color: $white;
+    border-color: $white;
+    color: $black;
+    cursor: pointer;
+    text-align: left;
+    line-height: 18px;
+}

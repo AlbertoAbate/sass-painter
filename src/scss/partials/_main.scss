@@ -4,10 +4,11 @@ main {
     
     .first-section {
         width: 100%;
+        height: 500px;
         background-image: url('../../img/hero-painteressentials-7.jpg');
         background-size: cover;
         background-repeat: no-repeat;
-        background-position-x: -403px;
+        background-position-x: -388px;
 
         .box-left {
             flex-basis: 25%;
@@ -47,6 +48,9 @@ main {
                 .scarica {
                     color: #666;
                 }
+            }
+            .limited {
+                font-size: 16px;
             }
         }
     }
