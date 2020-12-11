@@ -12,6 +12,14 @@ body {
   font-family: "Noto Sans JP", sans-serif;
 }
 
+h2 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 18px;
+}
+
 .container-small {
   width: 1170px;
   margin: 0 auto;
@@ -181,19 +189,13 @@ main .second-section li a:hover {
   color: #000;
 }
 main .third-section {
-  height: 1000px;
+  height: 1020px;
   background-image: url(../../img/intro.jpg);
 }
 main .third-section .title {
   text-align: center;
   padding: 80px 60px 20px 60px;
   color: #fff;
-}
-main .third-section .title h2 {
-  font-size: 36pz;
-}
-main .third-section .title p {
-  font-size: 18px;
 }
 main .third-section .quick {
   justify-content: center;
@@ -203,14 +205,56 @@ main .third-section .quick span {
   font-size: 18px;
   bottom: 15px;
   position: relative;
-  text-decoration: underline;
-  color: #fff;
 }
 main .third-section .donna {
   height: 530px;
+  position: relative;
 }
 main .third-section .donna img {
   border: 30px solid #000;
   border-bottom: 0;
   border-radius: 20px 20px 0 0;
+}
+main .third-section .donna i {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  font-size: 100px;
+  color: #fff;
+}
+main .third-section .donna i:hover {
+  color: #777777;
+}
+
+main .fourth-section {
+  padding: 60px;
+  text-align: center;
+}
+main .fourth-section p {
+  max-width: 93%;
+  line-height: 30px;
+}
+main .fourth-section img {
+  width: 850px;
+  padding: 30px 0 20px 0;
+}
+main .fourth-section .arrow {
+  position: relative;
+}
+main .fourth-section .arrow i {
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: #e74500;
+  font-size: 28px;
+  color: #fff;
+}
+main .fourth-section .arrow .left {
+  position: absolute;
+  bottom: 230px;
+  left: 0;
+}
+main .fourth-section .arrow .right {
+  position: absolute;
+  bottom: 230px;
+  right: 0;
 }

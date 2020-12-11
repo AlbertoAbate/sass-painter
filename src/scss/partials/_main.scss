@@ -72,20 +72,14 @@ main {
         }
     } // end second section
     .third-section {
-        height: 1000px;
+        height: 1020px;
         background-image: url(../../img/intro.jpg);
         
         .title {
             text-align: center;
             padding: 80px 60px 20px 60px;
             color: $white;
-
-            h2 {
-                font-size: 36pz;
-            }
-            p {
-                font-size: 18px;
-            }
+            
         }
         .quick {
             justify-content: center;
@@ -95,17 +89,27 @@ main {
                 font-size: 18px;
                 bottom: 15px;
                 position: relative;
-                text-decoration: underline;
-                color: $white;
             }
         }
         .donna {
             height: 530px;
+            position: relative;
             
             img {
                 border: 30px solid $black;
                 border-bottom: 0;
                 border-radius: 20px 20px 0 0;
+                
+            }
+            i {
+                position: absolute;
+                bottom: 10%;
+                left: 50%;
+                font-size: 100px;
+                color: $white;
+            }
+            i:hover {
+                color: $tertiary-col;
             }
         }
     }
