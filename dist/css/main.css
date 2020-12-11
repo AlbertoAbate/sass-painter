@@ -41,6 +41,10 @@ a {
   margin-right: 10px;
 }
 
+.ml {
+  margin-left: 10px;
+}
+
 .mt {
   margin-top: 20px;
 }
@@ -90,10 +94,10 @@ header .header-top i {
   color: #009cff;
 }
 header .header-top span {
-  color: #7a8888;
+  color: #777777;
 }
 header .header-top option {
-  color: #7a8888;
+  color: #777777;
 }
 header .header-bottom img {
   flex-basis: 10%;
@@ -107,7 +111,7 @@ header .header-bottom a {
   color: #fff;
 }
 header .header-bottom i {
-  color: #7a8888;
+  color: #777777;
   position: relative;
   top: 1px;
 }
@@ -134,7 +138,7 @@ main .first-section .box-center ul {
   margin-bottom: 30px;
 }
 main .first-section .box-center ul i {
-  color: #7a8888;
+  color: #777777;
   margin-right: 8px;
 }
 main .first-section .box-center button i {
@@ -165,12 +169,48 @@ main .second-section {
 main .second-section li {
   padding: 15px 30px;
 }
-main .second-section a {
-  color: #7a8888;
-}
-main .second-section a:hover {
+main .second-section li:hover {
   background-color: #fff;
   opacity: 0.6;
-  color: #000;
   padding: 15px 30px;
+}
+main .second-section li a {
+  color: #777777;
+}
+main .second-section li a:hover {
+  color: #000;
+}
+main .third-section {
+  height: 1000px;
+  background-image: url(../../img/intro.jpg);
+}
+main .third-section .title {
+  text-align: center;
+  padding: 80px 60px 20px 60px;
+  color: #fff;
+}
+main .third-section .title h2 {
+  font-size: 36pz;
+}
+main .third-section .title p {
+  font-size: 18px;
+}
+main .third-section .quick {
+  justify-content: center;
+}
+main .third-section .quick span {
+  color: #fff;
+  font-size: 18px;
+  bottom: 15px;
+  position: relative;
+  text-decoration: underline;
+  color: #fff;
+}
+main .third-section .donna {
+  height: 530px;
+}
+main .third-section .donna img {
+  border: 30px solid #000;
+  border-bottom: 0;
+  border-radius: 20px 20px 0 0;
 }

@@ -57,14 +57,55 @@ main {
 
         & li {
             padding: 15px 30px;
+            
+            &:hover {
+              background-color: #fff;
+              opacity: 0.6;
+              padding: 15px 30px; 
         }
         & a {
             color: $tertiary-col;
             &:hover {
-              background-color: #fff;
-              opacity: 0.6;
-              color: $black;
-              padding: 15px 30px;  
+                color: $black;
+            }
+            }
+        }
+    } // end second section
+    .third-section {
+        height: 1000px;
+        background-image: url(../../img/intro.jpg);
+        
+        .title {
+            text-align: center;
+            padding: 80px 60px 20px 60px;
+            color: $white;
+
+            h2 {
+                font-size: 36pz;
+            }
+            p {
+                font-size: 18px;
+            }
+        }
+        .quick {
+            justify-content: center;
+
+            span {
+                color: $white;
+                font-size: 18px;
+                bottom: 15px;
+                position: relative;
+                text-decoration: underline;
+                color: $white;
+            }
+        }
+        .donna {
+            height: 530px;
+            
+            img {
+                border: 30px solid $black;
+                border-bottom: 0;
+                border-radius: 20px 20px 0 0;
             }
         }
     }
